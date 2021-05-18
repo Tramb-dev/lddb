@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(base.css);
+
+body {
+	background: url(../images/orange/bg.jpg) no-repeat fixed #f1ede1 center top;
+	text-align: justify;
+	margin: 0 auto 0 auto;
+}
+
+#bigwrap {
+	margin: 0 auto;
+	width: 1066px;
+	background: url(../images/orange/fond.png) repeat-y center;
+}
+
+h1 {
+	background: url(../images/orange/h1.png) no-repeat left top;
+	width: 272px;
+	height: 80px;
+	color: #b8ab85;
+	font-family:"Comic Sans MS", cursive;
+	font-style: italic;
+	letter-spacing: -3px;
+	font-weight: lighter;
+	padding-left: 70px;
+	padding-top: 15px;
+	font-size: 30px;
+}
+
+/* header */
+#site-header {
+	background: url(../images/orange/header.jpg) no-repeat center;
+	height: 281px;
+	width: 950px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#login-top {
+	right: 35px;
+	position: absolute;
+	top: 10px;
+	color: #FFF;
+}
+/* Fin du header */
+
+/* Menu */
+#sidebar {
+	float: left;
+	width: 311px;
+	margin-left: 58px;
+	margin-top: -16px;
+	/margin-top: 0;
+	-margin-top : 0;
+	padding: 0;
+}
+
+#menu {
+	background: url(../images/orange/menu.jpg) no-repeat center top;
+	margin-top: 0;
+	height: 565px;
+	width: 312px;
+	position: relative;
+}
+
+#menu h5 {
+	display: block;
+	background: url(../images/orange/big_puce.png) no-repeat center;
+	width: 226px;
+	height: 40px;
+	color: #ebeced;
+	text-align: center;
+	font-variant: small-caps;
+	font-weight: bolder;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-top: 25px;
+	margin: 0;
+}
+
+#menu li {
+	background: url(../images/orange/puce.jpg) no-repeat center bottom;
+	width: 226px;
+	list-style-type: none;
+	margin-bottom: 9px;
+}
+
+#menu li a {
+	color: #3d3d3c;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	padding-left: 60px;
+	line-height: 15px;
+	letter-spacing: 0.5px;
+	font-weight: lighter;
+	display: block;
+}
+
+#menu li a:hover {
+	background-color: #4d4d4c;
+	color: #dddee0;
+}
+
+#presentation {
+	background: url(../images/orange/presentation.png) no-repeat center top;
+	width: 240px;
+	height: 376px;
+	margin: 0 auto 20px auto;
+}
+
+#presentation p {
+	padding: 80px 18px 8px 10px;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #5e594a;
+	text-align: justify;
+	font-size: 12px;
+	line-height: 20px;
+}
+/* Fin du menu */
+
+/* Contenu de la page */
+#page-container {
+	float: right;
+	width: 619px;
+	margin-right: 58px;
+	margin-bottom: 20px;
+	background: url(../images/orange/dragon.jpg) right top no-repeat;
+	min-height: 487px;
+	min-width: 437px;
+	padding-right: 15px;
+	padding-left: 5px;
+}
+
+.news {
+	margin-bottom: 10px;
+	margin-top : 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.news_titre {
+	color: #d1813a;
+	height: 42px;
+	background: url(../images/orange/barre_news.png) no-repeat bottom left;
+}
+
+.news_titre .titre {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.news_titre .titre a {
+	color: #d1813a;
+	text-decoration: none;
+}
+
+.news_titre .date {
+	font-size: 12px;
+}
+
+.contenu_news {
+	color: #585655;
+	font-size: 12px;
+	text-align: justify;
+	padding: 0 40px 0 20px;
+	line-height: 18px;
+	background: url(../images/orange/news_bg.png) repeat-y left;
+}
+
+.news_footer{
+	background: url(../images/orange/signature.png) no-repeat top left;
+	height: 80px;
+}
+
+.auteur {
+	color: #FFF;
+	font-size: 24px;
+	position: relative;
+	top: 18px;
+	left: 72%;
+	float: left;
+	font-family: "Comic Sans MS", cursive;
+	font-style: italic;
+	letter-spacing: -1px;
+	text-transform: capitalize;
+}
+/* Fin du contenu de la page */
+
+/* Footer */
+#footer {
+	clear:both;
+	height: 49px;
+	margin: 0 auto 0 auto;
+	width: 990px;
+	background: url(../images/orange/footer.png) center bottom no-repeat;
+	bottom: 0;
+}
+
+#footer p {
+	margin: 0 40px 0 40px;
+	padding: 18px 30px 0 30px;
+	color: #FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#footer p a {
+	color: #c9c3c3;
+}
+/* Fin du footer */
+

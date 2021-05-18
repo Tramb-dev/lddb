@@ -1,0 +1,152 @@
+.editer
+{
+	float: right;
+}
+
+.bouton
+{
+	width: 113px;
+	height: 27px;
+}
+
+/* Format des cellules contenant les boutons modifier et supprimer des news */
+.news_boutons
+{
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	width: 60px;
+}
+
+/* Format de la cellule contenant le titre des news (plus long que le reste) */
+.titre_news
+{
+	width:auto;
+}
+
+.underline /* Text soulign&#xE9; */
+{
+	text-decoration: underline;
+}
+
+/* Text centr&#xE9; */
+.center
+{
+	text-align: center;
+}
+
+.ptt_maj
+{
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+.videos td
+{
+	width:50%;
+	border-left:hidden;
+	border-right:hidden;
+	border-top:hidden;
+	border-bottom:groove;
+}
+
+
+th, td
+{
+	border: 1px solid #FFF;
+	text-align: center;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+
+
+.submit /* Lien de type bouton, ou bouton de type POST */
+{
+	margin: 2px 0;
+	width: auto;
+	vertical-align: middle;
+	border: 1px solid #999999;
+	font-size: 13px;
+	background-color: #FAFAFA;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	color: black;
+}
+
+.submit:hover
+{
+	color: black;
+	text-decoration:underline;
+}
+
+/* Les trois classes suivantes passent les cellules des affrontements GvG en rouge ou vert selon la d&#xE9;faite ou la victoire */
+.gvg_positif
+{
+	background-image: url('../images/gvg_positif.jpg');
+	background-repeat: repeat-x;
+	height: 25px;
+}
+
+.gvg_neutre
+{
+	background-image: url('../images/gvg_neutre.jpg');
+	background-repeat: repeat-x;
+	height: 25px;
+}
+
+.gvg_negatif
+{
+	background-image: url('../images/gvg_negatif.jpg');
+	background-repeat: repeat-x;
+	height: 25px;
+}
+
+/* Statistiques GvG */
+.tab_stat_gvg
+{
+	width: 100%;
+	margin: 5px auto 5px auto;
+}
+
+.tab_stat_gvg td
+{
+	border:none;
+	margin-bottom: 3px;
+	text-align:center;
+}
+
+p.stats_gvg
+{
+	text-indent: 0px;
+}
+
+/* Tout ce qui concerne l'autocomplétion */
+
+.AutoCompleteDiv
+{
+	display: block;
+	padding-left: 3;
+	padding-right: 3;
+	height: 16px;
+}
+
+.AutoCompleteDivListeStyle
+{
+	font-size: 13px;
+	font-family: arial,sans-serif;
+	word-wrap:break-word;
+	background-color: white;
+	color: black;
+}
+
+.AutoCompleteDivAct
+{
+	background-color: #3366cc;
+	color: white ! important;
+}
+
+/* END */
+

@@ -1,0 +1,212 @@
+/* CSS Document */
+
+/* Type de la page */
+body
+{
+	width: 772px;
+	margin: auto;
+	background-color : #606060;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 1em;
+	text-align: justify;
+}
+
+/* Format des liens */
+
+a /* Lien normal */
+{
+	color:#000000;
+	text-decoration: none;
+}
+
+a:hover /* Format losque la souris passe sur le lien */
+{
+	color: #c93;
+	text-decoration: underline;
+}
+
+a:active /* Format lorsque l'on clique */
+{ 
+	color: #900; 
+  	text-decoration: underline; 
+}
+
+.bouton
+{
+	width: 113px;
+	height: 27px;
+}
+
+/* Format des cellules contenant les boutons modifier et supprimer des news */
+.news_boutons
+{
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	width: 60px;
+}
+
+/* Format de la cellule contenant le titre des news (plus long que le reste) */
+.titre_news
+{
+	width:auto;
+}
+
+/* Les deux classes suivantes passent les cellules des affrontements GvG en rouge ou vert selon la d&#xE9;faite ou la victoire */
+.gvg_positif
+{
+	background-color:#66CC66;
+}
+
+.gvg_negatif
+{
+	background-color:#F4533D;
+}
+
+/* Format des titres et du texte dans un paragraphe ou texte important */
+
+h1
+{
+	font-size : 1.1em;
+	text-align: center;
+}
+
+h3
+{
+	color : red;
+	font-size : 1.1em;
+	font-variant: small-caps;
+}
+
+p
+{
+	text-indent: 3em;
+}
+
+.p_normal
+{
+	text-indent: 0px;
+}
+
+.underline /* Text soulign&#xE9; */
+{
+	text-decoration: underline;
+}
+
+/* Text centr&#xE9; */
+.center
+{
+	text-align: center;
+}
+
+.ptt_maj
+{
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+
+/* Logo affich&#xE9; directement dans le CSS, ce qui permet d'avoir une page totalement modifiable */
+
+#en-tete
+{
+	width:772px;
+	height: 187px;
+	background-image: url("../images/logo.jpg");
+}
+
+/* Le menu est compos&#xE9; uniquement de texte, pas d'images sur ce site */
+
+#menu
+{
+	text-align: center;
+	margin: auto;
+}
+
+/* Pour le corps les marges ext&#xE9;rieures sont de 0, ce qui permet de coller les blocks, les marges int&#xE9;rieures de 20px, ce qui &#xE9;vite d'avoir un contenu trop pr&#xE8;s des bords */
+
+#corps
+{
+	background-color: #FFF7B8;
+	color:#000000;
+	margin: 0px;
+	padding: 20px;
+	min-height: 600px;
+	padding-top:20px;
+}
+
+/* Pied de page : un petit copyright ;-) */
+
+#footer
+{
+	background-color: #000000;
+	color:#FFFFFF;
+	text-align: center;
+	margin: 0px;
+}
+
+/* Cas particulier de la liste des membres */
+
+#liste
+{
+	position:relative;
+	left: 150px;
+}
+
+/* Les liens du corps pour qu'ils ne soient pas blancs */
+
+.link
+{
+	color:#000000; 
+}
+
+/* Design Tableau */
+
+table
+{
+	border-collapse: collapse;
+}
+
+caption
+{
+	caption-side: top; /* Titre plac&#xE9; en haut */
+	font-weight: bold;
+	color : red;
+	font-size : 1.1em;
+	font-variant: small-caps;
+	margin-bottom: 10px;
+	text-align:left;
+}
+
+th, td
+{
+	border: 1px solid black;
+	width: 150px;
+	text-align: center;
+}
+
+.submit /* Lien de type bouton, ou bouton de type POST */
+{
+	margin: 2px 0;
+	width: auto;
+	vertical-align: middle;
+	border: 1px solid #999999;
+	font-size: 13px;
+	background-color: #FAFAFA;
+	padding: 2px 5px 2px 5px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+.videos td
+{
+	width:50%;
+	border-left:hidden;
+	border-right:hidden;
+	border-top:hidden;
+	border-bottom:groove;
+}
+
+
+

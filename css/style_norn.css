@@ -1,0 +1,157 @@
+body { 
+	background-color: #2b5b89;
+	background-image: url('../images/norn/bg.jpg');
+	background-repeat: repeat-x;
+	color: #FFF;
+	margin: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+p {
+	text-indent: 20px;
+}
+
+/* CORPS */
+
+#head {
+	background-image: url('../images/norn/head.jpg');
+	width: 983px;
+	height: 795px;
+	background-repeat: no-repeat;
+	margin:auto;
+}
+
+/* Format des titres et du texte dans un paragraphe ou texte important */
+
+h1
+{
+	font-size : 18px;
+	text-transform:uppercase;
+}
+
+h3
+{
+	background:url('../images/titre.png') no-repeat left;
+	height:38px;
+	font-size:16px;
+	color: #f0eadd;
+	padding:-50px;
+	padding-left:50px;
+}
+
+h5 {
+	background:url('../images/puce.png') no-repeat left;
+	font-size: 14px;
+	padding:-20px;
+	padding-left:25px;
+	z-index:1;
+	color: #d5e5f3;
+}
+
+/* AUTRES */
+a {
+	color: #b9edfc;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #def8ff;
+	text-decoration:underline;
+}
+
+#footer {
+	color: #6b92b8;
+	background-color: #25527c;
+	background-image:url('../images/foot.png');
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding:1px;
+	margin: 20px 80px auto auto;
+	font-size: 11px;
+	text-align:center;
+	height: 50px;
+	width: 600px;
+	float: right;
+}
+
+#footer p
+{
+	padding-left: 52px;
+}
+
+#menu {
+	margin-top:360px;
+	float:left;
+	width: 192px;
+	margin-left:15px;
+}
+
+#menu ul {
+	list-style-type:none;
+	list-style-type: inside;
+}
+
+#menu ul li {
+	list-style-type:none;
+	background-image: url('../images/menu.png');
+	width: 193px;
+	height: 29px;
+}
+
+#menu ul li a {
+	font-size: 11px;
+	padding-left:40px;
+	padding-top: 5px;
+	color:#FFF;
+	text-decoration: none;
+	display: block;
+}
+
+#menu ul li:hover {
+	background-image: url('../images/menu_actif.png');
+	width: 193px;
+	height: 29px;
+}
+
+#texte {
+	margin-top:360px;
+	margin-right: 80px;
+	width:600px;
+	float:right;
+	line-height:18px;
+	padding-bottom:20px;
+}
+
+.titre
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.date, .auteur
+{
+	font-style: italic;
+}
+
+.auteur:before
+{
+	content: '(par ';
+}
+
+.date:before
+{
+	content: ' le ';
+}
+
+.date:after
+{
+	content: ')';
+}
+
+.contenu_news
+{
+	border-bottom-color: #333;
+	border-bottom-style: groove;
+	padding-bottom: 5px;
+}
