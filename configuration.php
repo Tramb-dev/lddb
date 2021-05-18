@@ -12,13 +12,13 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysql';
-	public $host = 'db1128.1and1.fr';
-	public $user = 'dbo217517175';
-	public $password = 'kHWzpFAR';
-	public $db = 'db217517175';
+	public $host = 'xxx';
+	public $user = 'xxx';
+	public $password = 'xxx';
+	public $db = 'xxx';
 	public $dbprefix = 'joo_';
 	public $live_site = '';
-	public $secret = 'bPRCF0EZDBKCIlD5';
+	public $secret = 'xxx';
 	public $gzip = '1';
 	public $error_reporting = 'simple';
 	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
